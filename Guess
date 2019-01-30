@@ -1,0 +1,30 @@
+#Guess
+
+import random
+
+no.guess = 0
+
+name = input("Hi, What's your name?")
+
+number = random.randint(1,100)
+print("Well" + name + "Guess the number I'm thinking of between 1 and 100")
+
+while no.guess = < 6:
+print("Take a guess")
+guess = input()
+guess = int(guess)
+
+no.guess = no.guess + 1
+
+if guess < number:
+print("Sorry mate, too low")
+
+if guess > number:
+print("Sorry mate, too high")
+
+if guess == number:
+break
+
+if guess == number:
+no.guess = str(no.guess)
+print("Sick one")
