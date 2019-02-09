@@ -1,7 +1,14 @@
+import datetime
+
 def calc_age():
 
-	#Find user 
+	#Importing current date ddmmyyyy
+	current_date = datetime.date.today()
 
-	print("Enter your age")
+	#Find user age
 
-	age = int(input())
+	age = int(input("Enter your age"))
+
+	#Find DOB
+
+	dob = str((input("Enter your Date Of Birth (dd mm yyyy)"))
